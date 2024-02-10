@@ -1,0 +1,19 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "chatbot created for assist developers in tasks such get requirements from users requests, create tasks, generate code from natural language.",
+  "type": "module",
+  "main": "index.js",
+  "openai": "^4.0.0",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Rafael Montaner",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.1",
+    "openai": "^4.27.0",
+    "readline-sync": "^1.4.10"
+  }
+}
